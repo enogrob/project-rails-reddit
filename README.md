@@ -15,6 +15,6 @@ Learn everything you need to about the subject of this `Rails` project.
 
 ## Topics
 ```
-[x] link_scafold
-[~] add_users
+[x] first-commit
+[x] added-link-scaffolding
 ```

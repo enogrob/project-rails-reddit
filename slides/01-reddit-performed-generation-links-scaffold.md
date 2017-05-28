@@ -21,7 +21,7 @@ rails s
 git init
 git status
 git add .
-git commit -am "first commit"
+git commit -am "first-commit"
 hub create
 ```
 
@@ -32,16 +32,22 @@ rails g scaffold link title url
 rake db:migrate
 ```
 
-5. Update git for link_scaffold
+5. Set root address in `config/routes.rb` to:
+```ruby
+root 'links#index'
+```
+
+6. Commit git for `added-link-scaffolding`
 ```shell
 git status
 git add .
-git commit -am "performed generation links scaffold"
+git commit -am "added-link-scaffolding"
 ```
 
-6. Merge with master.
+6. Merge with master with `added-link-scaffolding`.
 ```shell
 git checkout master
-git merge link_scaffold
+git merge added-link-scaffolding
+git create
 git push origin master
 ```
