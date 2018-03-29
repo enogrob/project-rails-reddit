@@ -15,27 +15,17 @@ Learn everything you need to about the subject of this `Rails` project.
 
 ## Topics
 
-* [ ] Initial Commit
-
-Create new Rails app
-```shell
-mkdir rails-reddit-app
-cd rails-reddit-app
-rails new . -T -d postgresql
+* [x] [initial-commit](https://github.com/enogrob/rails-reddit-app/commit/dad395db2463bd9d86382b0b8701c4021b9a428f)
+```bash
+# create new Rails app
+$ mkdir rails-reddit-app
+$ cd rails-reddit-app
+$ rails new . -T -d postgresql
 ```
 
-Create Initial Commit
-```shell
-git init
-git add .
-git commit -m "performed-first-commit"
-git create
-git push origin master
-git checkout -b 1-initial-commit
-git push origin 1-initial-commit
-git checkout master
-```
+* [x] [docker](https://github.com/enogrob/rails-reddit-app/commit/8ed7bc6f9e20474f8e5100ef79bcad388a2d085c)
 
+```
 [ ] Generate Link scaffold
 [ ] Setup devise and create User model
 [ ] Add association between Link and User
@@ -49,3 +39,4 @@ git checkout master
 [ ] Update README
 [ ] Add pg gem for Ninefold Hosting
 [ ] Remove pg gem
+```
